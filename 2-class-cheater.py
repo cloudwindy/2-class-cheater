@@ -45,6 +45,7 @@ def main_func2():
                 num +=1
             req_data = {
                 'courseId': cid,
+                'exam': 'course',
                 'examCommitReqDataList': data,
                 'reqtoken': '00000000-0000-0000-0000-000000000000'
             }
